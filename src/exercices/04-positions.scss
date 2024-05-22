@@ -1,8 +1,12 @@
+.positions {
+  position: relative;
+}
 .list {
   margin-bottom: 20px;
   padding: 20px;
   display: inline-flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   background: #dde5b6;
   font-size: 18px;
@@ -18,12 +22,22 @@
   background: #6c584c;
   color: #fff;
   font-size: 24px;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  position: absolute;
+  bottom: 25px;
+  left: 85px;
 }
 
 .list-overlay {
-  padding: 10px;
+  position: relative;
   background: rgba(#6c584c, 0.5);
   backdrop-filter: blur(2px);
   color: #fff;
-  text-align: center;
+  position: absolute;
+
+  height: 130px;
+  padding: 10px 21px 10px 21px;
+  align-items: center;
 }
